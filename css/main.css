@@ -1,0 +1,218 @@
+body {
+	background-color: #fff;
+}
+/*common style*/
+.py-6 {
+	padding-top: 65px;
+	padding-bottom: 65px;
+}
+.fa_topBottom {
+	font-size: 50px;
+	color: #000;
+	opacity: 0.1;
+	position: fixed;
+	left: 5%;
+	top: 90%;
+	transition: 0.8s;
+}
+
+
+/*header style*/
+
+.header_carousel-img {
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.header_carousel-img:nth-child(1) {
+	background-image: url(../img/1bouquet.jpg);
+}
+.header_carousel-img:nth-child(2) {
+	background-image: url(../img/2bouquet.jpg);
+}
+.header_carousel-img:nth-child(3) {
+	background-image: url(../img/3bouquet.jpg);
+}
+.header_carousel-img:nth-child(4) {
+	background-image: url(../img/4bouquet.jpg);
+}
+.header__container_navbar {
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.7);
+	top: 0;
+	left: 0;
+	right: 0;
+}
+.header__navbar {
+	position: fixed;
+	z-index: 9999;
+	top: 0;
+	width: 100%;
+}
+.header__navbar a:hover {
+	color: #b73958;
+}
+.header__brand {
+	font-family: 'lavanderia';
+	font-size: 50px;
+	color: #000;
+}
+.header__brand_span {
+	color: #b73958;
+}
+.header__link {
+	color: #000;
+	font-family: 'Segoe UI';
+}
+.header__form_btn {
+	color: #b73958;
+	border-color: #b73958;
+	background-color: transparent;
+}
+.header__form_input {
+	border-color: #b73958;
+}
+
+
+/*section_orders style*/
+.wrapper__section_orders {
+	border-bottom: 1px solid #E3E3E3;
+}
+.orders__product_cells {
+	width: 200px;
+	height: 200px;
+}
+.orders__wrapper_product {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	color: transparent;
+}
+.orders__product_img {
+	height: 200px;
+	width: 200px;
+	background-size: cover;
+}
+.orders__product_cells:nth-child(1) .orders__product_img {
+	background-image: url(../img/1orders.jpg);
+}
+.orders__product_cells:nth-child(2) .orders__product_img {
+	background-image: url(../img/2orders.jpg);
+}
+.orders__product_cells:nth-child(3) .orders__product_img {
+	background-image: url(../img/3orders.jpg);
+}
+.orders__product_cells:nth-child(4) .orders__product_img {
+	background-image: url(../img/4orders.jpg);
+}
+.orders__wrapper_product {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+.orders__product_link {
+	position: absolute;
+	bottom: 15px;
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	background-color: #F7E3E3;
+	border-radius: 10px;
+	font-family: 'lavanderia';
+	font-size: 20px;
+	color: #b73958;
+	text-align: center;
+	opacity: 0;
+	transition: 1s;
+}
+.orders__product_link:hover {
+	text-decoration: none;
+}
+.orders__wrapper_product:hover .orders__product_link {
+	opacity: 1;
+} 
+.orders__wrapper_product:hover .orders__product_img {
+	box-shadow: 0 0 25px rgba(0, 0, 0, 0.4)
+}
+
+
+
+/*footer__contacts*/
+
+.footer__contacts {
+	background-color: #636363;
+}
+.contacts__social {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	font-size: 30px;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding-left: 30px;
+}
+.footer__contacts_shop {
+	width: 100%;
+	height: 100%;
+}
+.contacts__social_h5 {
+	font-family: 'lavanderia';
+	font-size: 50px;
+	color: #b73958;
+}
+.contacts__social_p {
+	font-size: 20px;
+	color: #fff;
+	padding-top: 30px;
+}
+.contacts__social_link {
+	display: inline-block;
+	position: relative;
+	width: 60px;
+	height: 60px;
+	overflow: hidden;
+}
+.contacts__social_img {
+	position: absolute;
+	top: -65px;
+	max-width: none;
+	
+}
+.contacts__social_sprite:nth-child(2) .contacts__social_img {
+	left: -60px;
+}
+.contacts__social_sprite:nth-child(3) .contacts__social_img {
+	left: -180px;
+}
+.contacts__social_sprite:nth-child(4) .contacts__social_img {
+	left: -240px;
+}
+.contacts__social_sprite:nth-child(5) .contacts__social_img {
+	left: -360px;
+}
+.contacts__social_img:hover {
+	top: 5px;
+}
+#map {
+	width: 100%;
+	height: 100%;
+	margin: auto;
+}
+
